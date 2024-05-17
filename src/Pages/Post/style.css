@@ -1,0 +1,38 @@
+.post__container {
+  margin-bottom: 20px;
+}
+.post-details {
+  width: 80%;
+  margin: 0 auto;
+}
+.post__container h2 {
+  text-align: center;
+  margin: 0;
+}
+.comment-btns {
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.comment-btns button {
+  margin-top: auto;
+  margin-right: 10px;
+  display: block;
+  align-self: center;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 120px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.comment-btns button:hover {
+  background-color: #0056b3;
+}
